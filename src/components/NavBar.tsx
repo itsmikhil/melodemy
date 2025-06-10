@@ -16,7 +16,7 @@ const NavBar = () => {
             <HoveredLink href="/interface-design">
               Basic Music Theory
             </HoveredLink>
-            <HoveredLink href="/seo">Advanced Composition</HoveredLink>
+            <HoveredLink href="/seo">Basic Composition</HoveredLink>
             <HoveredLink href="/branding">Music Production</HoveredLink>
           </div>
         </MenuItem>
