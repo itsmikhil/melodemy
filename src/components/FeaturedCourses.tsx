@@ -51,10 +51,11 @@ const FeaturedCourses = () => {
             );
           })}
         </div>
-
-        <button className="border-1 text-xl mx-auto border-white px-3 py-1 hover:bg-white hover:text-black rounded-lg">
-          View More
-        </button>
+        <Link href={"/courses"}>
+          <button className="border-1 cursor-pointer text-xl mx-auto border-white px-3 py-1 bg-white text-black rounded-lg">
+            View More
+          </button>
+        </Link>
       </div>
     </div>
   );
